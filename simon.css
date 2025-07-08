@@ -1,0 +1,53 @@
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 6px solid black;
+    border-radius: 20%;   
+    margin: 5px ;
+    cursor: pointer;
+
+}
+.btn-container{
+    display : flex ;
+    height :460px ;
+    width : 460px ;
+    text-align: center;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    margin-top: 10px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}   
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+.background{
+    background-color: white;
+}
+.user-choice{
+    background-color: black;
+}
+.game-over{
+    background-color: red;
+}
